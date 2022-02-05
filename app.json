@@ -1,0 +1,65 @@
+{
+  "pages":[
+    "pages/login1/index",
+    "pages/login/index",  
+    "pages/home/index",  
+    "pages/index/index", 
+    "pages/hunan/index",
+    "pages/liveBroadcast/index",
+    "pages/search/index",  
+    "pages/cart/index", 
+    "pages/mine/index",  
+    "pages/xinjiang/index" 
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",    
+    "navigationBarBackgroundColor": "#d7f8f9",
+    "navigationBarTitleText": "hi购乐园",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#a72772"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#fbb57c",
+    "backgroundColor": "#f1f3f4",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-o.png"
+      },
+      {
+        "pagePath": "pages/liveBroadcast/index",
+        "text": "直播",
+        "iconPath": "icons/broadcast.png",
+        "selectedIconPath": "icons/broadcast-o.png"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "搜索",
+        "iconPath": "icons/search.png",
+        "selectedIconPath": "icons/search-o.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "icons/shopping.png",
+        "selectedIconPath": "icons/shopping-o.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "icons/mine.png",
+        "selectedIconPath": "icons/mine-o.png"
+      }
+    ]
+  },
+  
+    
+  "style": "v2", 
+  "sitemapLocation": "sitemap.json"
+}

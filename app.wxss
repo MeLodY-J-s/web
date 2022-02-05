@@ -1,0 +1,6 @@
+@import "./styles/iconfont.wxss";
+
+
+page {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
